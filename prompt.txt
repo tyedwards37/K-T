@@ -1,0 +1,156 @@
+Create a modern shared couples bucket-list and date-planning web application called "K + T".
+
+Project Goal:
+Build a beautiful, mobile-friendly web app that allows two people to create, organize, and complete activities they want to do together. The app should feel personal, warm, and special, like a shared scrapbook of future adventures.
+
+Branding:
+- Application name: "K + T"
+- Display "K + T" prominently in the header
+- Add a small subtitle such as:
+  "Adventures waiting to happen"
+  or
+  "Our shared list of things to do together"
+- Design should feel clean, modern, romantic, and playful without being overly cheesy
+- Soft color palette with subtle animations and polished UI
+
+Main Categories:
+Create three sections:
+
+1. North Cali
+2. South Cali
+3. Either
+
+Each section should maintain its own activity list.
+
+Required Features:
+
+Activity Management:
+- Add new activities
+- Edit existing activities
+- Delete activities
+- Mark activities as completed
+- Unmark completed activities
+- Sort activities by newest, oldest, or alphabetically
+
+Each Activity Contains:
+- Title (required)
+- Notes (optional)
+- Location (optional)
+- Estimated Cost (optional)
+- Category tag:
+  - Food
+  - Outdoors
+  - Adventure
+  - Travel
+  - Coffee
+  - Date Night
+  - Event
+  - Creative
+  - Other
+- Completion status
+- Date created
+- Date completed
+
+User Interface:
+Header:
+- K + T logo/title
+- Total activities count
+- Total completed count
+- Completion percentage
+
+Category Cards:
+- North Cali
+- South Cali
+- Either
+
+Display:
+- Number of activities
+- Number completed
+- Progress bar
+
+Activity Cards:
+- Checkbox
+- Title
+- Notes preview
+- Location
+- Cost
+- Tag badge
+- Edit button
+- Delete button
+
+Completed Activities:
+- Cross out text
+- Fade slightly
+- Show completion date
+
+Filtering:
+- All
+- Active
+- Completed
+
+Search:
+- Search by title, notes, or location
+
+Nice-to-Have Features:
+- Favorite activities with a heart icon
+- Random Date Picker button that suggests an unfinished activity
+- Confetti animation when an item is completed
+- Activity statistics dashboard
+- Recently completed section
+- Dark mode toggle
+- Responsive mobile design
+
+Data Storage:
+Use Supabase for cloud storage.
+
+Create tables for:
+activities
+{
+  id
+  title
+  notes
+  location
+  estimated_cost
+  tag
+  category
+  completed
+  favorite
+  created_at
+  completed_at
+  updated_at
+}
+
+Technical Requirements:
+- React
+- TypeScript
+- Vite
+- Tailwind CSS
+- Supabase
+- React Query
+- React Router
+
+Deployment:
+- Ready for deployment on Vercel
+- Include environment variable setup
+- Include Supabase setup guide
+- Include README with installation instructions
+
+Code Requirements:
+- Modern React patterns
+- Reusable components
+- Type-safe TypeScript
+- Clean folder structure
+- Loading states
+- Error handling
+- Responsive design
+- Accessibility best practices
+
+Generate:
+1. Full folder structure
+2. All source code files
+3. Database schema
+4. Setup instructions
+5. Deployment instructions
+6. Sample seed data for testing
+
+The finished app should feel like a polished product that two people can use for years to track adventures, trips, restaurants, experiences, and future date ideas together.
