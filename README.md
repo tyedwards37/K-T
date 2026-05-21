@@ -170,7 +170,7 @@ K+T/
 
 ## Activity Tags
 
-Food · Outdoors · Adventure · Travel · Coffee · Date Night · Event · Creative · Other
+Food · Outdoors · Adventure · Travel · Coffee · Date Night · Event · Creative · Movie · Other
 
 ---
 

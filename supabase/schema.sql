@@ -11,6 +11,7 @@ create type activity_tag as enum (
   'date_night',
   'event',
   'creative',
+  'movie',
   'other'
 );
 

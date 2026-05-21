@@ -100,21 +100,24 @@ export function CategoryPage() {
           <ArrowLeft className="h-4 w-4" />
           Back to home
         </Link>
-        <div className="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-4">
-          <div>
-            <h1 className="font-display text-4xl font-bold text-stone-800 dark:text-stone-50">
-              {CATEGORY_LABELS[category]}
-            </h1>
-            <p className="text-stone-500 dark:text-stone-400 mt-1">
-              {catStats.completed} of {catStats.total} completed
-            </p>
-          </div>
-          <Button onClick={() => setShowAddModal(true)}>
-            <Plus className="h-4 w-4" />
+        <div>
+          <h1 className="font-display text-4xl font-bold text-stone-800 dark:text-stone-50">
+            {CATEGORY_LABELS[category]}
+          </h1>
+          <p className="text-stone-500 dark:text-stone-400 mt-1">
+            {catStats.completed} of {catStats.total} completed
+          </p>
+        </div>
+        <ProgressBar percent={catStats.percent} className="mt-4" />
+        <div className="w-full flex justify-center mt-4">
+          <Button
+            onClick={() => setShowAddModal(true)}
+            className="w-full max-w-2xl py-3 text-base"
+          >
+            <Plus className="h-5 w-5" />
             Add activity
           </Button>
         </div>
-        <ProgressBar percent={catStats.percent} className="mt-4" />
       </div>
 
       <ActivityFilters

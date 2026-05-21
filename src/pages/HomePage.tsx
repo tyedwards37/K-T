@@ -44,9 +44,12 @@ export function HomePage() {
         isDemoMode={isDemoMode}
       />
 
-      <div className="flex justify-end">
-        <Button onClick={() => setShowAddModal(true)}>
-          <Plus className="h-4 w-4" />
+      <div className="w-full flex justify-center">
+        <Button
+          onClick={() => setShowAddModal(true)}
+          className="w-full max-w-2xl py-3 text-base"
+        >
+          <Plus className="h-5 w-5" />
           Add activity
         </Button>
       </div>

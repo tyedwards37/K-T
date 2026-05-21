@@ -9,6 +9,7 @@ export type ActivityTag =
   | 'date_night'
   | 'event'
   | 'creative'
+  | 'movie'
   | 'other'
 
 export type Activity = {
@@ -54,6 +55,7 @@ export const TAG_LABELS: Record<ActivityTag, string> = {
   date_night: 'Date Night',
   event: 'Event',
   creative: 'Creative',
+  movie: 'Movie',
   other: 'Other',
 }
 
@@ -66,5 +68,6 @@ export const TAG_COLORS: Record<ActivityTag, string> = {
   date_night: 'bg-rose-100 text-rose-800 dark:bg-rose-900/40 dark:text-rose-200',
   event: 'bg-violet-100 text-violet-800 dark:bg-violet-900/40 dark:text-violet-200',
   creative: 'bg-fuchsia-100 text-fuchsia-800 dark:bg-fuchsia-900/40 dark:text-fuchsia-200',
+  movie: 'bg-indigo-100 text-indigo-800 dark:bg-indigo-900/40 dark:text-indigo-200',
   other: 'bg-gray-100 text-gray-700 dark:bg-gray-800 dark:text-gray-300',
 }
