@@ -28,6 +28,17 @@ Track versions and notable changes as the app evolves.
 
 ---
 
+## v0.1.1 — Completion celebration
+
+**Date:** 2026-05-20
+
+### Changed
+- Checking off an activity plays `public/giphy-downsized.gif` (full-screen overlay) and `public/myinstants.mp3`
+- Replaced canvas confetti with custom media
+- Tap overlay or wait ~4s to dismiss
+
+---
+
 ## Upcoming / ideas
 
 - [ ] Supabase Auth for private couple-only access

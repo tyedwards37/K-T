@@ -11,7 +11,7 @@ A beautiful, mobile-friendly shared couples bucket-list and date-planning web ap
 - **Rich activity details**: title, notes, location, cost, tags, favorites
 - **Filtering & search**: by status, favorites, title/notes/location
 - **Sorting**: newest, oldest, alphabetical
-- **Confetti** on completion
+- **Completion celebration** — custom GIF and sound when you check off an activity
 - **Stats dashboard** and recently completed section
 - **Dark mode** toggle
 - **Responsive** mobile-first design

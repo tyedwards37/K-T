@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import { ArrowLeft, Plus } from 'lucide-react'
 import { useActivities } from '../hooks/useActivities'
-import { celebrateCompletion } from '../lib/confetti'
+import { useCelebrateCompletion } from '../components/CompletionCelebration'
 import {
   filterActivities,
   getCategoryStats,
@@ -47,6 +47,7 @@ export function CategoryPage() {
   const [showAddModal, setShowAddModal] = useState(false)
   const [editingActivity, setEditingActivity] = useState<Activity | null>(null)
   const [deletingActivity, setDeletingActivity] = useState<Activity | null>(null)
+  const celebrateCompletion = useCelebrateCompletion()
 
   if (!category || !CATEGORY_LABELS[category]) {
     return (
